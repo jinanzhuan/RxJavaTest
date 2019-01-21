@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".activity.CreateObservableActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:onClick="create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="create"/>
+
+        <Button
+            android:onClick="just"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="just"/>
+
+        <Button
+            android:onClick="from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="from"/>
+
+        <Button
+            android:onClick="defer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="defer"/>
+
+        <Button
+            android:onClick="empty_throw_never"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="empty_throw_never"/>
+
+        <Button
+            android:onClick="interval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="interval"/>
+
+        <Button
+            android:onClick="range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="range"/>
+
+        <Button
+            android:onClick="repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="repeat"/>
+
+        <Button
+            android:onClick="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"/>
+
+        <Button
+            android:onClick="timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="timer"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RxJavaTest</string>
+    <string name="describe_rxjava">观察者模式四大要素\n\n\nObservable 被观察者\n\nObserver 观察者\n\nSubscribe 订阅(在RxJava中指的是onNext()、onCompleted()和onError())\n\n事件</string>
+</resources>

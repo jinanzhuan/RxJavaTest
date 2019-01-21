@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:onClick="map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="map"/>
+
+    <Button
+        android:onClick="flatmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="flatmap"/>
+
+    <Button
+        android:onClick="group_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="groupby"/>
+
+    <Button
+        android:onClick="buffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="buffer"/>
+
+    <Button
+        android:onClick="scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scan"/>
+
+    <Button
+        android:onClick="window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="window"/>
+
+</LinearLayout>
